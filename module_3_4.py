@@ -19,6 +19,6 @@ def single_root_words(root_word, *other_words):
 result1 = single_root_words('rich', 'richiest', 'orichalcum', 'cheers', 'richies')
 result2 = single_root_words('Disablement', 'Able', 'Mable', 'Disable', 'Bagel')
 
-# Вывод на консоль результата работы фунции single_root_words для каждого вхождения
+# Вывод на консоль результата работы функции single_root_words для каждого вхождения
 print(result1)
 print(result2)
