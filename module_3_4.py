@@ -7,7 +7,7 @@ def single_root_words(root_word, *other_words):
 # цикл поиска *other_words в root_word или root_word в *other_words
     for i in (other_words):
 # Условие для поиска и приведения символов к одному регистру
-         if i.lower().count(root_word) == True or root_word.count(i.lower()) == True:
+         if i.lower().count(root_word.lower()) == True or root_word.lower().count(i.lower()) == True:
 # Добавление найденных элементов в конец списка same_word
             same_words.append(i)
 # вывод результата работы функции
